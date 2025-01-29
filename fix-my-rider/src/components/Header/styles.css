@@ -1,0 +1,44 @@
+.title {
+  font-family: "Inter", sans-serif;
+}
+.icon {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #242424;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #242424;
+  font-size: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 6%;
+  height: 64px;
+}
+
+.ham-links {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-links,
+  .right-side-actions {
+    display: none;
+  }
+  .ham-links {
+    display: block;
+  }
+}

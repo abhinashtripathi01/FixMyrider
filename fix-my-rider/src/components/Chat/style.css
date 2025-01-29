@@ -1,0 +1,45 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  height: 63vh;
+  background-color: white;
+  padding: 10px;
+}
+
+.messaging-container {
+  padding: 30px 6%;
+}
+
+.messaging-container .title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.messaging-internal-container {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.messaging-internal-container .list,
+.messaging-internal-container .chat {
+  border: 1px solid #bbbbbb;
+  border-radius: 12px;
+  padding: 12px 20px;
+}
+
+.messaging-internal-container .chat {
+  width: 100%;
+}
+
+.messaging-internal-container .text-input {
+  background: #eff6fc;
+  padding: 0px 14px 4px 14px;
+  border-radius: 12px;
+}
+
+.messaging-internal-container
+  .text-input
+  .css-1eed5fa-MuiInputBase-root-MuiInput-root::before {
+  border: none;
+}

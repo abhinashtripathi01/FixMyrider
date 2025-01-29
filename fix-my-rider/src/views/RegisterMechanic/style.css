@@ -1,0 +1,50 @@
+.register-mechanic-container {
+  padding: 40px 6%;
+}
+
+.register-mechanic-container .title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.register-mechanic-container .form {
+  padding: 30px 0px;
+  font-size: 14px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.register-mechanic-container .profile-picture {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.register-mechanic-container .center {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 24px 0px;
+  max-width: 700px;
+}
+
+.register-mechanic-container .select-location {
+  width: 530px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 8px;
+}
+
+.register-mechanic-container .document-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.register-mechanic-container p {
+  font-size: 14px;
+}

@@ -1,0 +1,66 @@
+.about-us-container {
+  padding: 40px 10%;
+  display: flex;
+  justify-content: space-around;
+  min-height: 80vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-us-container .left-side {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../../../public/images/login-signup.avif");
+  width: 532px;
+  height: 526px;
+  background-size: cover;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1140px) {
+  .about-us-container .left-side {
+    display: none;
+  }
+}
+
+.about-us-container .left-side p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 4px 0px;
+}
+
+.about-us-container .left-side .left-side-content {
+  margin: 46px;
+}
+
+.about-us-container .right-form {
+  font-size: 22px;
+  font-weight: 700;
+  width: 560px;
+}
+
+.right-form .top-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #696969;
+}
+
+.right-form .bottom-text {
+  margin-bottom: 10px;
+}
+
+.right-form .link-text {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.right-form .link-text a {
+  color: #000000;
+  font-weight: 700;
+}

@@ -1,0 +1,41 @@
+.admin-container .title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.admin-container {
+  min-height: 80vh;
+}
+
+.admin-container .counter-section {
+  display: flex;
+  margin-top: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.admin-container .counter-section .counter {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e0e0e0;
+  border-radius: 14px;
+  padding: 16px 18px;
+  width: 260px;
+  height: 70px;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  color: #696969;
+}
+
+.admin-container .counter-section .counter .count {
+  font-size: 28px;
+  color: #333;
+  font-weight: 600;
+}
+
+.admin-container .counter-section .counter .count-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
